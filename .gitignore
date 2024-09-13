@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# JetBrains
+.idea
+*.iml
+cmake-*/
+
+# Mac
+.DS_Store
