@@ -47,7 +47,7 @@ struct the_thing {
     int bar;
 };
 
-int compare_the_thing(the_thing *a, the_thing *b) {
+int compare_the_thing(struct the_thing *a, struct the_thing *b) {
     return a->foo == b->foo && a->bar == b->bar ? 0 : -1; // Return 0 if equal, non-zero if not equal
 }
 
