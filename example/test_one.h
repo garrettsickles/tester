@@ -56,6 +56,7 @@ Test(TheFifthTest)
     struct the_thing a = { .foo = 10, .bar = 20 };
     struct the_thing b = { .foo = 11, .bar = 20 };
     AssertDeepEqual(&a, &b, compare_the_thing);
+    return 0;
 }
 
 TestSuite(TestOne)
